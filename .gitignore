@@ -1,0 +1,13 @@
+# Local system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local credentials and generated files
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+node_modules/

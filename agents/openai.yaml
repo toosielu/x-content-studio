@@ -1,0 +1,7 @@
+interface:
+  display_name: "X 内容工作室"
+  short_description: "撰写中文推文、长线程、Article及引流短文，按任务需要调研审稿"
+  default_prompt: "Use $x-content-studio to write original Chinese X content for my intended reader, preserving my voice and requested format, with verified claims where needed."
+
+policy:
+  allow_implicit_invocation: true
