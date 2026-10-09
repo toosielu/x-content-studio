@@ -30,13 +30,17 @@ Separate cash income, customer refunds, avoided spending, and tool credits. Do n
 
 ## X Article
 
+Resolve the three-way image choice in SKILL.md before generating a complete Article, unless the request or a confirmed standing preference already supplies the answer. Pass that choice through writing and review handoffs so a text-only draft is not mistaken for the full illustrated deliverable.
+
 Honor the selected title and requested level of detail. Use a concrete opening and useful section breaks. For a beginner guide, make the first action and final deliverable clear. For a concise Article, merge repeated background and retain the actual method, example, or prompt.
 
 Preserve uncertainty and attribution when adapting sources. User-supplied text can be transformed, but a new cover does not make another author's article original. Do not silently remove attribution or pretend source experience belongs to the user.
 
 ## Requested cover and inline images
 
-Only generate images when the user requests them or when visuals materially serve the deliverable. Use the available imagegen skill and tool; drafting a caption alone does not require new images.
+For X Articles, generate images after an affirmative image choice or a confirmed always-generate preference; an illustration's usefulness alone does not bypass the choice. For other formats, follow the user's visual request. Read [article-visuals.md](article-visuals.md) for the module-to-image mapping, prompt optimization with the available imagegen skill, and complete-set checks; drafting a caption alone does not require new images.
+
+An affirmative Article or long-form image choice requires one separate image for every content module, plus a cover unless the user specifies another scope. Honor any user-specified count. Generate and deliver the image files, not just prompts or an illustration plan. Mark every module's insertion position and keep the set visually coherent. If generation is unavailable or fails, report the affected modules explicitly rather than describing a partial set as the completed illustrated package; preserve any user-requested draft-review checkpoint.
 
 - For this user's Article covers, prefer 5:2 unless they specify another ratio. Verify final file dimensions, not just the prompt. Preserve existing image versions.
 - Inventory source illustrations before promising to replace all of them. Deliver each replacement and a clear insertion order.

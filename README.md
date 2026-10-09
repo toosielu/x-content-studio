@@ -9,6 +9,10 @@
 - 起草或修改中文内容，保留用户指定的标题、表达和语气。
 - 按任务需要进行独立审稿，设计封面或插图。
 
+生成完整 Article 前，配图选择未明确时会询问：“本篇生成配图”“以后每篇 Article 都生成配图”“本篇不生成配图”。选定后交付对应的正文和实际图片；“每篇都生成”的偏好在可读取的用户上下文中沿用，当次要求优先。
+
+选择配图后，长文每个内容模块各配一张独立图片，封面另算。例如 5 个模块默认交付 5 张模块图加 1 张封面。先用当前可用的 `imagegen` Skill 优化每张图的内容表达、构图、中文文字与提示词，再生成和检查整组图片；追求在 X 上醒目、易读、便于理解和分享，不保证流量或爆款。整组交付包含模块对应关系、插入位置、实际图片文件和提示词；当次明确指定的数量或纯文字要求优先。
+
 这份 Skill 用于明确的 X 内容任务。发布内容需要用户另外授权。
 
 ## 安装与使用
@@ -41,9 +45,12 @@
 | [references/human-voice.md](references/human-voice.md) | 写作语气与保留个人表达 |
 | [references/content-decisions.md](references/content-decisions.md) | 内容角度与编辑判断 |
 | [references/editorial-modes.md](references/editorial-modes.md) | Article、引流短文及配图指导 |
+| [references/article-visuals.md](references/article-visuals.md) | 每模块一图、出图 Skill 优化、视觉设计与整组验收 |
 | [references/agent-workflow.md](references/agent-workflow.md) | 按需委派研究、写作与审稿 |
-| [evals/evals.json](evals/evals.json) | 保留语气和证据边界的评测案例 |
+| [evals/evals.json](evals/evals.json) | 语气、证据、配图选择、模块覆盖与失败处理的评测案例 |
 
 ## 来源与许可
 
 部分写作指导改编自 [human-writing](https://github.com/KKKKhazix/human-writing)。相关署名与 MIT 许可保留在 [references/human-writing-LICENSE.txt](references/human-writing-LICENSE.txt)，该许可文件标明的是上游改编内容的来源与许可。
+
+本 Skill 的编写与优化使用了 Codex 内置 `skill-creator`、`anthropic-skill-creator` 和 `skill-judge`；配图实际使用了 `imagegen`，并参考 `imagegen-frontend-web` 的模块出图与视觉设计方法。具体参与方式、上游文件及文章测试素材，记录在 [SKILL.md 的来源与编写说明](SKILL.md#来源与编写说明)中。

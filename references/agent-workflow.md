@@ -18,6 +18,8 @@ Run dependent stages sequentially. Independent bounded research questions can ru
 
 ## Carry the shared brief
 
-Pass only relevant fields: requested format and length; intended reader and purpose; settled title or angle; confirmed voice preferences; wording/examples to preserve; source experience that must not become user experience; and unresolved evidence gaps.
+Pass only relevant fields: requested format and length; intended reader and purpose; settled title or angle; confirmed voice preferences; Article image choice and any confirmed standing preference; module outline and per-module image mapping when illustrations are selected; wording/examples to preserve; source experience that must not become user experience; and unresolved evidence gaps.
 
 Include the applicable human-voice and content-decisions criteria in writing/review briefs, not every reference file or full transcripts. Keep claim-to-source mappings compact. Later stages may flag a problem but should not silently reopen settled choices. Review should repair actual weaknesses rather than rewrite merely to demonstrate participation.
+
+For illustrated long-form work, the parent tracks each module's image through prompt optimization, generation, inspection, and delivery. Apply [article-visuals.md](article-visuals.md); a writer's outline or an agent's image prompts do not count as delivered image files. If the outline changes, update the mapping before the final coverage check.
